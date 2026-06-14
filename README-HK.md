@@ -32,7 +32,7 @@ cargo install --path .
 nine-stock \
   --session "20260608-analysis" \
   --code "AAPL" \
-  --ktype "short" \
+  --ktype "1d" \
   --data "分析AAPL短期走勢"
 ```
 
@@ -42,7 +42,7 @@ nine-stock \
 nine-stock \
   --session "20260608-analysis" \
   --code "TSLA" \
-  --ktype "mid" \
+  --ktype "5m" \
   --data "TSLA 中期前景點睇？" \
   --debug
 ```
